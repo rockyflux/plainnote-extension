@@ -1,0 +1,49 @@
+{
+  "name": "plainnote-extension",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser extension for PlainNote — create, manage, and share Markdown notes",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.10.2",
+    "@codemirror/lang-markdown": "^6.5.0",
+    "@codemirror/language": "^6.12.2",
+    "@codemirror/state": "^6.5.4",
+    "@codemirror/view": "^6.39.14",
+    "codemirror": "^6.0.2",
+    "dexie": "^4.3.0",
+    "pinia": "^3.0.4",
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.29",
+    "vue-i18n": "^11.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/chrome": "^0.1.36",
+    "@types/qrcode": "^1.5.6",
+    "@vue/test-utils": "^2.4.6",
+    "@wxt-dev/module-vue": "^1.0.3",
+    "chrome-launcher": "^1.2.0",
+    "fake-indexeddb": "^6.2.8",
+    "happy-dom": "^20.8.3",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5",
+    "vitest": "^4.1.0",
+    "vue-tsc": "^3.2.5",
+    "web-ext": "^10.5.0",
+    "wxt": "^0.21.3"
+  }
+}

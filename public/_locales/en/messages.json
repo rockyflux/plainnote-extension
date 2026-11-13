@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "PlainNote"
+  },
+  "extDescription": {
+    "message": "Create and manage PlainNote Markdown notes from your browser."
+  },
+  "cmdQuickCreate": {
+    "message": "Open PlainNote to create a note"
+  },
+  "cmdSaveSelection": {
+    "message": "Save selected text as a PlainNote"
+  },
+  "cmdOpenSidePanel": {
+    "message": "Open PlainNote side panel"
+  }
+}

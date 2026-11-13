@@ -1,0 +1,16 @@
+/* Full-page workbench: match mock density / reading size. */
+html,
+body,
+#app {
+  font-size: 14px;
+}
+
+.pn-workbench {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+
+.pn-workbench .prose-pn {
+  font-size: 15px;
+  line-height: 1.75;
+}

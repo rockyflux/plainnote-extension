@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <!-- PlainNote extension icon — brand accent + WorkbenchIcon logo mark -->
+  <defs>
+    <linearGradient id="plate" x1="20" y1="16" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a7aff"/>
+      <stop offset="100%" stop-color="#0052e0"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#plate)"/>
+  <!-- Filled edit-pen for toolbar clarity at small sizes -->
+  <path
+    fill="#ffffff"
+    d="M86.2 35.8a7.2 7.2 0 0 1 10.2 10.2L55.6 86.8a4 4 0 0 1-1.9 1.05L40.4 91a2.4 2.4 0 0 1-2.9-2.9l3.15-13.3A4 4 0 0 1 41.7 73L86.2 35.8z"
+  />
+  <path
+    fill="#0066ff"
+    d="M45.2 79.2l3.6 3.6-7.4 1.75 3.8-5.35z"
+    opacity="0.35"
+  />
+</svg>

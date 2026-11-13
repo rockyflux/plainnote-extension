@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "PlainNote"
+  },
+  "extDescription": {
+    "message": "在浏览器中创建与管理 PlainNote Markdown 笔记。"
+  },
+  "cmdQuickCreate": {
+    "message": "打开 PlainNote 新建笔记"
+  },
+  "cmdSaveSelection": {
+    "message": "将选中文字保存为 PlainNote"
+  },
+  "cmdOpenSidePanel": {
+    "message": "打开 PlainNote 侧栏"
+  }
+}
